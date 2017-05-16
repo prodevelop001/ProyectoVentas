@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Millet.SGV.WebService.ServicioGestionVentas" CodeBehind="ServicioGestionVentas.svc.cs" %>

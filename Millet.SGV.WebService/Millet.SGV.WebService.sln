@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millet.SGV.WebService", "Millet.SGV.WebService\Millet.SGV.WebService.csproj", "{EB6D5CAF-23A4-46A6-9A80-D23C9A31DA9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millet.SGV.Entities", "Millet.SGV.Entities\Millet.SGV.Entities.csproj", "{88CA75AD-9578-4D77-A1E4-86A7C27BF13C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millet.SGV.Business", "Millet.SGV.Business\Millet.SGV.Business.csproj", "{C3A375F1-1D5E-481D-8F40-CC38C10CB7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millet.SGV.Data", "Millet.SGV.Data\Millet.SGV.Data.csproj", "{9079FC81-FD42-4298-BF8F-77850A5C3519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Millet.SGV.Web", "Millet.SGV.Web\Millet.SGV.Web.csproj", "{76C99F79-1DF8-43D8-ACEE-E5B4220269B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB6D5CAF-23A4-46A6-9A80-D23C9A31DA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6D5CAF-23A4-46A6-9A80-D23C9A31DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6D5CAF-23A4-46A6-9A80-D23C9A31DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6D5CAF-23A4-46A6-9A80-D23C9A31DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CA75AD-9578-4D77-A1E4-86A7C27BF13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CA75AD-9578-4D77-A1E4-86A7C27BF13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CA75AD-9578-4D77-A1E4-86A7C27BF13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CA75AD-9578-4D77-A1E4-86A7C27BF13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A375F1-1D5E-481D-8F40-CC38C10CB7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A375F1-1D5E-481D-8F40-CC38C10CB7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A375F1-1D5E-481D-8F40-CC38C10CB7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A375F1-1D5E-481D-8F40-CC38C10CB7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9079FC81-FD42-4298-BF8F-77850A5C3519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9079FC81-FD42-4298-BF8F-77850A5C3519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9079FC81-FD42-4298-BF8F-77850A5C3519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9079FC81-FD42-4298-BF8F-77850A5C3519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C99F79-1DF8-43D8-ACEE-E5B4220269B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C99F79-1DF8-43D8-ACEE-E5B4220269B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C99F79-1DF8-43D8-ACEE-E5B4220269B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C99F79-1DF8-43D8-ACEE-E5B4220269B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
