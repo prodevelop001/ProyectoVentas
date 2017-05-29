@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seguridad\Acceso.cs" />
     <Compile Include="Seguridad\Personas.cs" />
+    <Compile Include="Seguridad\Usuario.cs" />
+    <Compile Include="Utils\Cadena.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Millet.SGV.Data\Millet.SGV.Data.csproj">
@@ -53,6 +56,7 @@
       <Name>Millet.SGV.Entities</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

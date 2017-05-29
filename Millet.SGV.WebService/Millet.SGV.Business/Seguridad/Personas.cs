@@ -6,11 +6,22 @@ namespace Millet.SGV.Business.Seguridad
     {
         Data.Seguridad.Personas _Persona;
 
-        public List<Entities.Personas> GetPersonas(Entities.Personas p)
+        public List<Entities.Persona> GetPersonas(Entities.Usuario u,Entities.Persona p)
         {
-            _Persona = new Data.Seguridad.Personas();
+            Entities.Error _e;
 
-            return _Persona.GetPersonas(p);
+            Acceso access = new Acceso();
+
+            _e = access.ValidarSesion(u);
+
+            if(_e.IdError == 0)
+            {
+                _Persona = new Data.Seguridad.Personas();
+
+                return _Persona.GetPersonas(p);
+            }
+
+            return new List<Entities.Persona>() { new Entities.Persona() { error = _e } };
         }
     }
 }

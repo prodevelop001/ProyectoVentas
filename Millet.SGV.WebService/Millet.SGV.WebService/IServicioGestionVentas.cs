@@ -8,6 +8,9 @@ namespace Millet.SGV.WebService
     public interface IServicioGestionVentas
     {
         [OperationContract]
-        List<Entities.Personas> GetPersonas(Entities.Personas p);
+        Entities.Usuario LogIn(string User, string Pwd);
+
+        [OperationContract]
+        List<Entities.Persona> GetPersonas(Entities.Usuario u,Entities.Persona p);
     }
 }

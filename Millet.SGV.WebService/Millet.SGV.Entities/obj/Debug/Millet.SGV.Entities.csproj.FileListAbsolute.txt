@@ -1,0 +1,6 @@
+C:\Users\GIEZI\Desktop\ProyectoVentas\Millet.SGV.WebService\Millet.SGV.Entities\bin\Debug\Persona.hbm.xml
+C:\Users\GIEZI\Desktop\ProyectoVentas\Millet.SGV.WebService\Millet.SGV.Entities\bin\Debug\Usuario.hbm.xml
+C:\Users\GIEZI\Desktop\ProyectoVentas\Millet.SGV.WebService\Millet.SGV.Entities\bin\Debug\Millet.SGV.Entities.dll
+C:\Users\GIEZI\Desktop\ProyectoVentas\Millet.SGV.WebService\Millet.SGV.Entities\bin\Debug\Millet.SGV.Entities.pdb
+C:\Users\GIEZI\Desktop\ProyectoVentas\Millet.SGV.WebService\Millet.SGV.Entities\obj\Debug\Millet.SGV.Entities.dll
+C:\Users\GIEZI\Desktop\ProyectoVentas\Millet.SGV.WebService\Millet.SGV.Entities\obj\Debug\Millet.SGV.Entities.pdb

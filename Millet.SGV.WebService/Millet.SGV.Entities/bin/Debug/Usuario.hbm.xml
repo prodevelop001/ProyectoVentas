@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Millet.SGV.Entities" namespace="Millet.SGV.Entities">
+	<class name="Millet.SGV.Entities.Usuario" table="Usuarios">
+		<id name="PkUsuario" column="PkUsuario">
+			<generator class="native"/>
+		</id>
+		<property name="Alias" column="Alias" />
+		<property name="Clave" column="Clave" />
+		<property name="FchRegistro" column="FchRegistro" />
+		<property name="FchActualizacion" column="FchActualizacion" />
+		<property name="IdUsuarioReg" column="IdUsuarioReg" />
+		<property name="IdUsuarioAct" column="IdUsuarioAct" />
+		<property name="Activo" column="Activo" />
+    <property name="FchSession" column="FchSession"/>
+    <property name="TokenSession" column="TokenSession"/>
+	</class>
+</hibernate-mapping>
+
